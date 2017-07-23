@@ -1,7 +1,7 @@
 #include <iostream>
 #include <CL/cl.h>
 
-void nterpretOpenCLError(cl_int error)
+void InterpretOpenCLError(cl_int error)
 {
 	if (error != CL_SUCCESS)
 		switch (error)
